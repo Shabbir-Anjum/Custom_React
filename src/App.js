@@ -7,6 +7,8 @@ function App() {
   let [color, setcolor]= useState('red')
   const Addvalue=()=>{
     setvalue(value + 1);
+    setvalue(value + 1)
+    setvalue((Svalue)=> Svalue + 1)
   }
   const removeValue=()=>{
     setvalue(value-1)
